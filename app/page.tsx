@@ -92,7 +92,7 @@ export default async function HomePage({
               Sea Artikel
             </h1>
             <p className="text-muted-foreground text-sm md:text-base lg:text-lg">
-              Latest news and updates from Magic UI.
+              Sumber informasi yang membahas teknologi, forex, crypto, fintech, trading, keuangan dan keamanan digital. Menyajikan analisa, panduan, dan pembaruan terbaru untuk membantu pembaca memahami tren, peluang, dan perkembangan di dunia digital serta pasar keuangan modern.
             </p>
           </div>
         </div>
