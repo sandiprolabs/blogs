@@ -19,8 +19,8 @@ export async function generateMetadata({
 
     if (!slug || slug.length === 0) {
       return {
-        title: "Blog Not Found",
-        description: "The requested blog post could not be found.",
+        title: "Artikwl tidak ditemukan",
+        description: "Postingan blog yang diminta tidak dapat ditemukan.",
       };
     }
 
@@ -28,8 +28,8 @@ export async function generateMetadata({
 
     if (!page) {
       return {
-        title: "Blog Not Found",
-        description: "The requested blog post could not be found.",
+        title: "Artikel tidak ditemukan",
+        description: "Postingan blog yang diminta tidak dapat ditemukan.",
       };
     }
 
@@ -43,11 +43,12 @@ export async function generateMetadata({
         page.data.title,
         ...(page.data.tags || []),
         "Blog",
-        "Article",
-        "Web Development",
-        "Programming",
-        "Technology",
-        "Software Engineering",
+        "Artikel",
+        "Teknologi",
+        "Trading",
+        "Forex",
+        "Crypto",
+        "Money",
       ],
       authors: [
         {
@@ -106,3 +107,4 @@ export async function generateMetadata({
     };
   }
 }
+
