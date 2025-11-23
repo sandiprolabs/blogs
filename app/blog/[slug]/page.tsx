@@ -61,7 +61,7 @@ export default async function BlogPost({ params }: PageProps) {
           gridGap={6}
           color="#6B7280"
           maxOpacity={0.2}
-          flickerChance={0.05}
+          fli={0.05}
         />
       </div>
 
@@ -71,7 +71,7 @@ export default async function BlogPost({ params }: PageProps) {
             <Button variant="outline" asChild className="h-6 w-6">
               <Link href="/">
                 <ArrowLeft className="w-4 h-4" />
-                <span className="sr-only">Back to all articles</span>
+                <span className="sr-only">Kembali ke semua artikel</span>
               </Link>
             </Button>
             {page.data.tags && page.data.tags.length > 0 && (
