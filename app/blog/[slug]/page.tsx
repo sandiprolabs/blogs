@@ -61,7 +61,7 @@ export default async function BlogPost({ params }: PageProps) {
           gridGap={6}
           color="#6B7280"
           maxOpacity={0.2}
-          fli={0.05}
+          flickerChance={0.05}
         />
       </div>
 
